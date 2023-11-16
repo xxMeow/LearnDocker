@@ -32,7 +32,7 @@ static void run(int argc, char **argv) {
 static string cmd(int argc, char **argv) {
     string cmd = "";
     for (int i = 0; i < argc; i ++) {
-        cmd.append(argv[i] + string(""));
+        cmd.append(argv[i] + string(" "));
     }
     
     return cmd;
